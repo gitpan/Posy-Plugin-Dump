@@ -8,7 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Kathryn Andersen',
     dist_version_from   => 'lib/Posy/Plugin/Dump.pm',
 	requires            => {
-	'Posy' => 0.40,
+	'Posy' => 0.70,
 	'Data::Dumper' => 2.121,
 	},
     build_requires => {
@@ -17,10 +17,3 @@ my $builder = Module::Build->new(
 );
 
 $builder->create_build_script();
-# create the Makefile.PL if need be
-if (! -f 'Makefile.PL')
-{
-    use Module::Build::Compat;
-    print "creating Makefile.PL\n";
-    Module::Build::Compat->create_makefile_pl('passthrough', $builder);
-}

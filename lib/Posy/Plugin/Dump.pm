@@ -8,11 +8,11 @@ Posy::Plugin::Dump - Posy plugin to aid debugging by dumping object contents
 
 =head1 VERSION
 
-This describes version B<0.40> of Posy::Plugin::Dump.
+This describes version B<0.45> of Posy::Plugin::Dump.
 
 =cut
 
-our $VERSION = '0.40';
+our $VERSION = '0.45';
 
 =head1 SYNOPSIS
 
@@ -21,7 +21,6 @@ our $VERSION = '0.40';
 	Posy::Plugin::Dump));
     @actions = qw(init_params
 	    parse_path
-	    stop_if_not_found
 	    ...
 	    dump
 	);

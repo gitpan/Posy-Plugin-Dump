@@ -1,6 +1,13 @@
 Revision history for Posy-Plugin-Dump
 =====================================
 
+0.45 Sat 22 January 2005
+------------------------
+
+  * (22 Jan 2005) removed Makefile.PL
+
+  * (22 Jan 2005) documentation tweak
+
 0.40 Sat 15 January 2005
 ------------------------
 

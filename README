@@ -6,7 +6,7 @@ Posy::Plugin::Dump - Posy plugin to aid debugging by dumping object contents
 
 ==== VERSION ====
 
-This describes version ``0.40'' of Posy::Plugin::Dump.
+This describes version ``0.45'' of Posy::Plugin::Dump.
 
 
 ==== DESCRIPTION ====
