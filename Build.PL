@@ -8,7 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Kathryn Andersen',
     dist_version_from   => 'lib/Posy/Plugin/Dump.pm',
 	requires            => {
-	'Posy' => 0.70,
+	'Posy' => 0.90,
 	'Data::Dumper' => 2.121,
 	},
     build_requires => {
