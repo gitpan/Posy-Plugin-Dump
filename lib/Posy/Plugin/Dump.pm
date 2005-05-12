@@ -8,11 +8,11 @@ Posy::Plugin::Dump - Posy plugin to aid debugging by dumping object contents.
 
 =head1 VERSION
 
-This describes version B<0.46> of Posy::Plugin::Dump.
+This describes version B<0.47> of Posy::Plugin::Dump.
 
 =cut
 
-our $VERSION = '0.46';
+our $VERSION = '0.47';
 
 =head1 SYNOPSIS
 
